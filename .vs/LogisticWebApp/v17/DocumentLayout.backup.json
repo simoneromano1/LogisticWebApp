@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|c:\\users\\s-rom\\cloud-drive\\lavori\\antilia\\quinta 2024\\tracce esame\\simulazione\\webapplication\\logisticwebapp\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|c:\\users\\s-rom\\cloud-drive\\lavori\\antilia\\quinta 2024\\tracce esame\\simulazione\\webapplication\\logisticwebapp\\controllers\\clienticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|solutionrelative:controllers\\clienticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|c:\\users\\s-rom\\cloud-drive\\lavori\\antilia\\quinta 2024\\tracce esame\\simulazione\\webapplication\\logisticwebapp\\views\\clienti\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|solutionrelative:views\\clienti\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|c:\\users\\s-rom\\cloud-drive\\lavori\\antilia\\quinta 2024\\tracce esame\\simulazione\\webapplication\\logisticwebapp\\data\\logisticdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|solutionrelative:data\\logisticdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|c:\\users\\s-rom\\cloud-drive\\lavori\\antilia\\quinta 2024\\tracce esame\\simulazione\\webapplication\\logisticwebapp\\models\\spedizione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|solutionrelative:models\\spedizione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|c:\\users\\s-rom\\cloud-drive\\lavori\\antilia\\quinta 2024\\tracce esame\\simulazione\\webapplication\\logisticwebapp\\models\\notifica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|solutionrelative:models\\notifica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|c:\\users\\s-rom\\cloud-drive\\lavori\\antilia\\quinta 2024\\tracce esame\\simulazione\\webapplication\\logisticwebapp\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|solutionrelative:models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|c:\\users\\s-rom\\cloud-drive\\lavori\\antilia\\quinta 2024\\tracce esame\\simulazione\\webapplication\\logisticwebapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|c:\\users\\s-rom\\cloud-drive\\lavori\\antilia\\quinta 2024\\tracce esame\\simulazione\\webapplication\\logisticwebapp\\models\\corriere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D69B875-67DC-4227-AE6E-CF16F5B45554}|LogisticWebApp.csproj|solutionrelative:models\\corriere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 191,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientiController.cs",
+              "DocumentMoniker": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Controllers\\ClientiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientiController.cs",
+              "ToolTip": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Controllers\\ClientiController.cs",
+              "RelativeToolTip": "Controllers\\ClientiController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:30:31.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Views\\Clienti\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clienti\\Create.cshtml",
+              "ToolTip": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Views\\Clienti\\Create.cshtml",
+              "RelativeToolTip": "Views\\Clienti\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T16:30:26.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogisticDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Data\\LogisticDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\LogisticDbContext.cs",
+              "ToolTip": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Data\\LogisticDbContext.cs",
+              "RelativeToolTip": "Data\\LogisticDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:36:56.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Notifica.cs",
+              "DocumentMoniker": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Models\\Notifica.cs",
+              "RelativeDocumentMoniker": "Models\\Notifica.cs",
+              "ToolTip": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Models\\Notifica.cs",
+              "RelativeToolTip": "Models\\Notifica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:36:38.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "Models\\Feedback.cs",
+              "ToolTip": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Models\\Feedback.cs",
+              "RelativeToolTip": "Models\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:36:47.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:36:45.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Corriere.cs",
+              "DocumentMoniker": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Models\\Corriere.cs",
+              "RelativeDocumentMoniker": "Models\\Corriere.cs",
+              "ToolTip": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Models\\Corriere.cs",
+              "RelativeToolTip": "Models\\Corriere.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:36:44.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Spedizione.cs",
+              "DocumentMoniker": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Models\\Spedizione.cs",
+              "RelativeDocumentMoniker": "Models\\Spedizione.cs",
+              "ToolTip": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Models\\Spedizione.cs",
+              "RelativeToolTip": "Models\\Spedizione.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:35:32.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\s-rom\\Cloud-Drive\\Lavori\\Antilia\\QUINTA 2024\\tracce esame\\simulazione\\WebApplication\\LogisticWebApp\\Models\\Cliente.cs",
+              "RelativeToolTip": "Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:35:24.975Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
