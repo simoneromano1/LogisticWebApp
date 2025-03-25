@@ -3,6 +3,7 @@ using System;
 using LogisticWebApp.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LogisticWebApp.Migrations
 {
     [DbContext(typeof(LogisticDbContext))]
-    partial class LogisticDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250325220532_Renaming2")]
+    partial class Renaming2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.3");
@@ -110,12 +113,6 @@ namespace LogisticWebApp.Migrations
 
                     b.Property<DateTime>("DataNotifica")
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("IdCliente")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("IdSpedizione")
-                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Messaggio")
                         .IsRequired()

@@ -1,89 +1,54 @@
 @model IEnumerable<LogisticWebApp.Models.Spedizione>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Spedizioni";
 }
 
-<h1>Index</h1>
+<h1>Spedizioni</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<table class="table" id="spedizioni-table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.IdCliente)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdCorriere)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Mittente)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Destinatario)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IndirizzoPartenza)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IndirizzoDestinazione)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TipoMerce)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RichiesteSpeciali)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Stato)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataCreazione)
-            </th>
-            <th></th>
+            <th>Cliente</th>
+            <th>Corriere</th>
+            <th>Mittente</th>
+            <th>Destinatario</th>
+            <th>Stato</th>
+            <th>Azioni</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdCliente)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdCorriere)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Mittente)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Destinatario)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IndirizzoPartenza)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IndirizzoDestinazione)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TipoMerce)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RichiesteSpeciali)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Stato)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataCreazione)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr data-spedizione-id="@item.Id">
+                <td class="cliente-nome">
+                    @item.Cliente.Nome
+                </td>
+                <td class="corriere-nome">
+                    @item.Corriere.Nome
+                </td>
+                <td class="mittente">
+                    @item.Mittente
+                </td>
+                <td class="destinatario">
+                    @item.Destinatario
+                </td>
+                <td class="stato">
+                    @item.Stato
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+@section Scripts {
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/spedizioni.js"></script>
+}
