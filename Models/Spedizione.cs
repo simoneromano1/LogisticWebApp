@@ -17,8 +17,8 @@ public class Spedizione
     public DateTime DataCreazione { get; set; }
 
     // Navigation properties
-    public required virtual Cliente Cliente { get; set; }
-    public required virtual Corriere Corriere { get; set; }
+    public virtual Cliente? Cliente { get; set; }
+    public virtual Corriere? Corriere { get; set; }
     public virtual Feedback? Feedback { get; set; }
     public virtual ICollection<Notifica>? Notifiche { get; set; }
 }

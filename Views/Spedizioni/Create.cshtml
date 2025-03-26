@@ -13,13 +13,17 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="IdCliente" class="control-label"></label>
-                <input asp-for="IdCliente" class="form-control" />
+                <label asp-for="IdCliente" class="control-label">Cliente</label>
+                <select asp-for="IdCliente" class="form-control" asp-items="ViewBag.IdCliente">
+                    <option value="">-- Seleziona un cliente --</option>
+                </select>
                 <span asp-validation-for="IdCliente" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="IdCorriere" class="control-label"></label>
-                <input asp-for="IdCorriere" class="form-control" />
+                <label asp-for="IdCorriere" class="control-label">Corriere</label>
+                <select asp-for="IdCorriere" class="form-control" asp-items="ViewBag.IdCorriere">
+                    <option value="">-- Seleziona un corriere --</option>
+                </select>
                 <span asp-validation-for="IdCorriere" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -73,3 +77,11 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+            }
